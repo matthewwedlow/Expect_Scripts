@@ -2,8 +2,10 @@
 
 # Collect username, ssh, & enable passwords *** use -r to hide input commands
 echo "Enter the username: "
-read -e userecho "Enter the SSH password: "
-read -e passwordecho "Enter the Enable password: "
+read -e user
+echo "Enter the SSH password: "
+read -e password
+echo "Enter the Enable password: "
 read -e enable
 
 # Must have a seperate device list that contains the IP addresses of the devices you wish to loop through
